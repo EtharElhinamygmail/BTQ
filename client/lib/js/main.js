@@ -174,7 +174,6 @@ function initAudio() {
             navigator.requestAnimationFrame = navigator.webkitRequestAnimationFrame || navigator.mozRequestAnimationFrame;
         }
 
-
         if(navigator.getUserMedia) {
         navigator.getUserMedia(
             {
